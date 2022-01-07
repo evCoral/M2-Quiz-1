@@ -1,0 +1,46 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+body {
+  background-image: url("../images/bg.jpg");
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+
+#btn-container {
+  width: 100%;
+  display: flex;
+}
+
+#output-container {
+  display: flex;
+  align-items: center;
+  background-color: #d5a6bd;
+  border: 5px solid #efefef;
+  height: 275px;
+  width: 720px;
+  margin: 0 auto;
+  padding: 25px 50px;
+}
+
+.btns {
+  margin: 50px auto;
+  height: 50px;
+  width: 15%;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+  background-color: #310a60; /* if linear gradient won't work in the browser */
+  background-image: linear-gradient(to right, #110a60, #310a60, #510a60);
+  transition: 0.5s;
+}
+.btns:hover {
+  background-image: linear-gradient(to right, #d39dbf, #efefef);
+  color: black;
+}
+
+#output {
+  margin: 25px auto;
+  font-size: 26px;
+}
